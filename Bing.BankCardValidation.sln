@@ -3,9 +3,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-document", "00-document", "{FDDE5374-9BE3-4351-B448-71326C74EB13}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-src", "01-src", "{11D1FCA8-3B4E-4AE7-92D5-3777AEEED187}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-tests", "02-tests", "{1811044D-66E6-46F7-B260-046900193144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bing.BankCardValidation", "src\Bing.BankCardValidation\Bing.BankCardValidation.csproj", "{0462AD2F-F6D1-4854-9EBF-6BED044D3E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bing.BankCardValidation.Tests", "tests\Bing.BankCardValidation.Tests\Bing.BankCardValidation.Tests.csproj", "{A7AC0E1E-9468-45F1-A4F9-05DB170BC696}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0462AD2F-F6D1-4854-9EBF-6BED044D3E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0462AD2F-F6D1-4854-9EBF-6BED044D3E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0462AD2F-F6D1-4854-9EBF-6BED044D3E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0462AD2F-F6D1-4854-9EBF-6BED044D3E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7AC0E1E-9468-45F1-A4F9-05DB170BC696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7AC0E1E-9468-45F1-A4F9-05DB170BC696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7AC0E1E-9468-45F1-A4F9-05DB170BC696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7AC0E1E-9468-45F1-A4F9-05DB170BC696}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0462AD2F-F6D1-4854-9EBF-6BED044D3E7E} = {11D1FCA8-3B4E-4AE7-92D5-3777AEEED187}
+		{A7AC0E1E-9468-45F1-A4F9-05DB170BC696} = {1811044D-66E6-46F7-B260-046900193144}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2DA370D4-1593-4047-A5AF-CB05CDED13BA}
