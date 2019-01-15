@@ -6,7 +6,7 @@ Bing.BankCardValidtion 是基于支付宝接口实现银行卡号码验证功能
 ## Nuget
 |Nuget|版本号|说明|
 |---|---|---|
-|Bing.BankCardValidtion|[![NuGet Badge](https://buildstats.info/nuget/Bing.BankCardValidtion?includePreReleases=true)](https://www.nuget.org/packages/Bing.BankCardValidtion)|
+|Bing.BankCardValidation|[![NuGet Badge](https://buildstats.info/nuget/Bing.BankCardValidation?includePreReleases=true)](https://www.nuget.org/packages/Bing.BankCardValidation)|
 
 ## 功能
 - 银行卡号验证
